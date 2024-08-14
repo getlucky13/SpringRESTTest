@@ -17,7 +17,7 @@ public class Survivor {
     private String DOB;
     private String Birthplace;
     //private ArrayList<Vehicle> RegisteredVehicles;
-    
+
     public String getFirstName() {
         return firstName;
     }
