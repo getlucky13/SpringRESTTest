@@ -14,8 +14,8 @@ public class Survivor {
 
     private String firstName;
     private String lastName;
-    private String DOB;
-    private String Birthplace;
+    private String dob;
+    private String birthplace;
     //private ArrayList<Vehicle> RegisteredVehicles;
 
     public String getFirstName() {
@@ -34,20 +34,20 @@ public class Survivor {
         this.lastName = lastName;
     }
 
-    public String getDOB() {
-        return DOB;
+    public String getDob() {
+        return dob;
     }
 
-    public void setDOB(String DOB) {
-        this.DOB = DOB;
+    public void setDob(String dob) {
+        this.dob = dob;
     }
 
     public String getBirthplace() {
-        return Birthplace;
+        return birthplace;
     }
 
     public void setBirthplace(String birthplace) {
-        Birthplace = birthplace;
+        birthplace = birthplace;
     }
 
     @Override
@@ -55,8 +55,8 @@ public class Survivor {
         return "Survivor{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", DOB='" + DOB + '\'' +
-                ", Birthplace='" + Birthplace + '\'' +
+                ", DOB='" + dob + '\'' +
+                ", Birthplace='" + birthplace + '\'' +
                 '}';
     }
 }

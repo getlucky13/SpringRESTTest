@@ -10,4 +10,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 public interface SurvivorRepository extends PagingAndSortingRepository<Survivor, Long>, CrudRepository<Survivor, Long> {
     List<Survivor> findByLastName(@Param("name") String name);
+    List<Survivor> findByBirthplace(@Param("birthplace") String birthplace);
 }
